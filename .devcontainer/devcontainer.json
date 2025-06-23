@@ -1,0 +1,12 @@
+{
+  "name": "Claude Code",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {},
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code && npm install",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["dbaeumer.vscode-eslint"]
+    }
+  }
+}
