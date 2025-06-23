@@ -1,0 +1,11 @@
+{
+  "name": "claude-dev",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "claude run claude-agent.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^0.6.1"
+  }
+}
